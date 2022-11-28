@@ -1,0 +1,54 @@
+.regCard{
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    background-color: #ffffffeb;
+    color: black;
+    left:0;
+    right:0;
+    top: 5vh;
+    margin-left:auto;
+    margin-right:auto;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: none;
+    border-radius: 50px;
+    border: solid gray 4px;
+}
+.regCard p{
+    font: 90%;
+    margin-inline: 2rem;
+    margin-block: 2rem;
+    max-height: 30%;
+    overflow-y: scroll;
+}
+.regCard img {
+    max-width: 90%;
+    max-height: 40%;
+}
+.monumentsList {
+    max-width: 90%;
+    max-height: 40%;
+    overflow-x: scroll;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.microMonu {
+    border-radius: 20px;
+    margin-inline: 1rem;
+    min-width: 8rem;
+    height: 8rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textmicromonu {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
